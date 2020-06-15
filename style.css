@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+    background-image: url("https://jmd.im/wp-content/uploads/2017/06/blackiv_thumbnail.jpg");
+}
+
+h1 {text-align: center;
+        margin-top: 110px;
+        font-size: 58px;
+        margin-bottom: 0px;
+    
+}
+
+img {display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1,h3,section { font-family: 'Bebas Neue', cursive;
+                color: #DBDBDA;
+                
+}
+
+.message {text-align: center;
+        font-family: 'Montserrat', sans-serif;
+
+}
+
+a {margin:0 auto;    
+display:block;
+
+}
+
+h3 {text-align: center;
+    font-size: 33px;
+}
+
+#link {width:150px;
+     margin-left:630px;}
+
+
+a:link {
+    color: #BAAE88;
+}
+a:visited {
+    color: #5C3232;
+}
+
+a:hover {
+    color: #FFE600;
+}
+
+section {
+    font-size: 15px;
+}
+
+.smiley {
+    width: 130px;
+    height: 195px;
+    position: relative;
+    display: inline-block;
+    margin-left: 593px;
+}
+.smiley .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    
+}
+.smiley:hover .img-top {
+    display: inline;
+}
+
